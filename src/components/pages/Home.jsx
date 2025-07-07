@@ -31,7 +31,34 @@ function Home() {
       <div className="more" onClick={() => setIsOpen((v) => !v)}>
         CODE
       </div>
-      {isOpen && <div></div>}
+      {isOpen && (
+        <div>
+          <ol>
+            <li>Suspense;</li>
+            <li>loader: f// useLoaderData() || useNavigation() ;</li>
+            <li>
+              action: f// useActionData()
+              <br /> (result || result.error)
+            </li>
+            <li>
+              <p> Form method="x"</p>
+
+              <p>
+                actionF(&#123;request&#125;) &gt; <br />
+                const x = await request.formData()
+              </p>
+            </li>
+            <li>
+              <p>
+                handle: &#123;
+                <br />
+                crumb: () =&gt; &#123;...&#125;
+              </p>
+              <p>useMatches()/ filter + map</p>
+            </li>
+          </ol>
+        </div>
+      )}
     </div>
   );
 }
