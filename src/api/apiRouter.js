@@ -1,5 +1,5 @@
-// const API_BASE_URL = `https://bk-teachers08.onrender.com/api`;
-const API_BASE_URL = `http://localhost:5099/api`;
+const API_BASE_URL = `https://bk-teachers08.onrender.com/api`;
+// const API_BASE_URL = `http://localhost:5099/api`;
 
 export default {
   // GET: Отримати всіх вчителів
